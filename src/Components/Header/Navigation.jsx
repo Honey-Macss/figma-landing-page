@@ -3,7 +3,7 @@ import Button from '../Button/Button'
 
 const Navigation = () => {
   return (
-    <div className=' flex justify-around align-middle'>
+    <div className=' flex justify-around items-center'>
         <h1 className=' font-extrabold text-xl text-white'>SELLZEE</h1>
         <ul className=' flex align-middle gap-5 font-semibold text-slate-300'>
           <li className=' text-white'>Home</li>
@@ -12,7 +12,7 @@ const Navigation = () => {
           <li>Testimonial</li>
           <li>Pricing</li>
         </ul>
-        <Button />
+        <Button content="Get Started"/>
     </div>
   )
 }
