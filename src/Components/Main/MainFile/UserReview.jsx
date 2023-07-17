@@ -5,18 +5,18 @@ import left from "../../../Assets/Images/leftVector.png"
 import right from "../../../Assets/Images/rightVector.png"
 const UserReview = () => {
     const firstPic = {
-        position: "absolute",
-        left: "24rem",
+        position: "relative",
+        left: "6rem",
         zIndex: "2"
     }
     const secondPic = {
         position: "relative",
-        left:"20rem",
+        left:"2rem",
         zIndex: "1",
     }
     const quoteStyle ={
         position: "relative",
-        left: "13rem",
+        left: "-4rem",
         bottom: "10rem",
         zIndex: "2"
     }
